@@ -772,3 +772,61 @@ cursor:pointer;
   border-radius: 28px;
   box-shadow: 0 28px 90px rgba(15, 23, 42, 0.12);
 }
+```css
+.submit-hero{
+min-height:100vh;
+padding:170px 7% 120px;
+text-align:center;
+background:
+radial-gradient(circle at 50% 0%, rgba(57,191,255,.20), transparent 40%),
+linear-gradient(135deg,#050b16,#081b35);
+color:white;
+}
+
+.submit-hero h1{
+font-size:clamp(55px,8vw,100px);
+line-height:.95;
+letter-spacing:-3px;
+max-width:900px;
+margin:20px auto;
+}
+
+.submit-intro{
+max-width:800px;
+margin:auto;
+font-size:22px;
+line-height:1.8;
+color:#c7d7ee;
+}
+
+.submit-benefits{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+max-width:800px;
+margin:60px auto;
+}
+
+.submit-benefits div{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(20px);
+}
+
+.submit-button{
+margin-top:20px;
+font-size:18px;
+padding:20px 36px;
+}
+
+@media(max-width:1000px){
+
+.submit-benefits{
+grid-template-columns:1fr;
+}
+
+}
+```
+
