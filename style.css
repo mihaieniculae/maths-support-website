@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  background: #07111f;
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 120px 8%;
+  background: linear-gradient(135deg, #07111f, #0b2a4a);
+}
+
+.hero h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 22px;
+  max-width: 700px;
+  color: #d6e4ff;
+}
+
+.buttons {
+  margin-top: 35px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 15px 26px;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #00aaff;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #00aaff;
+  color: #00aaff;
+}
+
+section {
+  padding: 80px 8%;
+  background: white;
+  color: #07111f;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f6f9ff;
+  padding: 30px;
+  border-radius: 18px;
+  flex: 1;
+}
+
+.card h3 {
+  color: #0b2a4a;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #07111f;
+  color: white;
+}
